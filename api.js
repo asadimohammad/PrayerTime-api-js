@@ -124,7 +124,6 @@ function loadApi (city) {
     fetch (url)
     .then((response) => response.json())
     .then ((data) => {
-        console.log(data)
         let html = `
             <div class='cities'>
                 <div>امروز : ${data.Today}</div>
